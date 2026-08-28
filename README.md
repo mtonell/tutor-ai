@@ -1,13 +1,14 @@
 <p align="center">
   <img src="frontend/public/logo.png" width="150" alt="TutorAI Logo" />
+  <br/>
+  <a href="https://tutorai-live.vercel.app">
+    <img src="https://img.shields.io/badge/TUTORAI_LIVE-FFD700?style=for-the-badge" alt="TutorAI Live" />
+  </a>
 </p>
 
 # TutorAI
 
-TutorAI is an open-source, web-based AI language tutor. It runs entirely in the browser using the Gemini API.
-
-### Try it out
-[Link to live demo will go here]
+**[TutorAI](https://tutorai-live.vercel.app)** is an open-source, web-based AI language tutor. It runs entirely in the browser using the Gemini API.
 
 ### Languages Supported
 The app currently supports learning and native UI translations for the following languages:
