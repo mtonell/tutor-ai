@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments & Env variables
+venv/
+env/
+.venv/
+.env
+
+# Datasets and Models
+*.pth
+*.pt
+/datasets/
+/models/
+
+# Since hand_tracker.py automatically downloads this, we don't need to bloat the git repo!
+hand_landmarker.task
+
+# AI Additions
+training/dataset/
+training/models/
+
+# Ignore everything inside the new model folder...
+model/*
+# ...Except the ONNX models!
+!model/cnn_model.onnx
+!model/cnn_model.onnx.data
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Frontend Additions
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# General Logs
+*.log
