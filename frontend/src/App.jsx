@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { useGeminiLive } from './hooks/useGeminiLive'
 import { translations } from './translations'
 import Settings from './components/Settings'
@@ -166,6 +167,7 @@ function App() {
       {renderContent()}
       {showWidget && <QuickChatWidget settings={settings} />}
       <ProfileDrawer {...profileProps} t={t} />
+      <Analytics />
     </>
   );
 }
