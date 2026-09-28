@@ -105,6 +105,7 @@ function Settings({ settings, setSettings, t, setCurrentView, errorBanner }) {
               <option value="japanese">Japanese</option>
               <option value="german">German</option>
               <option value="chinese">Chinese</option>
+              <option value="dutch">Dutch</option>
             </select>
           </div>
           <div className="form-group">
@@ -120,6 +121,7 @@ function Settings({ settings, setSettings, t, setCurrentView, errorBanner }) {
               <option value="japanese">Japanese</option>
               <option value="german">German</option>
               <option value="chinese">Chinese</option>
+              <option value="dutch">Dutch</option>
             </select>
           </div>
           <div className="form-group">

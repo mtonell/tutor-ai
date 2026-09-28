@@ -155,7 +155,8 @@ export function useGeminiLive(settings) {
                     japanese: "こんにちは！",
                     italian: "Ciao!",
                     german: "Hallo!",
-                    chinese: "你好！"
+                    chinese: "你好！",
+                    dutch: "Hoi!"
                 };
                 const greeting = greetings[targetLang] || "Hey there!";
                 

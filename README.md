@@ -18,6 +18,8 @@ The app currently supports learning and native UI translations for the following
 * Italian
 * German
 * Chinese
+* Japanese
+* Dutch
 
 ### Features
 * **Speaking:** Voice-to-voice conversation practice with a live transcript.

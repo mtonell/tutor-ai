@@ -110,5 +110,21 @@ export const translations = {
     generating: "生成中...", check_answers: "检查答案", correct: "正确！", incorrect: "错误", explanation: "解释：",
     story_length: "故事长度", short: "短 (约100字)", mid: "中 (约250字)", long: "长 (约500字)",
     create_new_story: "创建新故事", model: "AI模型", model_desc: "选择你的导师的智能水平"
+  },
+  dutch: {
+    home: "Home", settings: "Instellingen", profile: "Profiel", title: "TutorAI",
+    speaking: "Spreken", reading: "Lezen", writing: "Schrijven", total_time: "Totale Tijd",
+    my_profile: "Mijn Profiel", saved_notes: "Opgeslagen Notities", no_notes: "Je opgeslagen woordenschat- en grammaticanoties verschijnen hier.",
+    app_language: "App-taal (Moedertaal)", learn_language: "Te leren taal",
+    level: "Huidig Niveau", voice: "AI Tutorstem", save_settings: "Instellingen Opslaan",
+    writing_title: "Schrijfoefening", writing_desc: "Schrijf een alinea in de taal die je leert. De AI beoordeelt je grammatica en stijl.",
+    submit: "Indienen ter beoordeling", evaluating: "Evalueren...", back: "Terug naar Home",
+    red_pen: "Tutorcorrecties", tutor_notes: "Notities", end_session: "Sessie beëindigen",
+    aha_notes: "Live Notities", no_live_notes: "Notities verschijnen hier wanneer je iets nieuws leert!",
+    reading_title: "Leesbegrip", reading_desc: "Genereer een verhaal op jouw niveau. Lees het en test je begrip!",
+    topic_placeholder: "Onderwerp (bijv. Reizen, Eten, of leeg laten)", generate_story: "Verhaal Genereren",
+    generating: "Genereren...", check_answers: "Antwoorden Controleren", correct: "Correct!", incorrect: "Onjuist", explanation: "Uitleg:",
+    story_length: "Verhaallengte", short: "Kort (~100 woorden)", mid: "Gemiddeld (~250 woorden)", long: "Lang (~500 woorden)",
+    create_new_story: "Nieuw Verhaal Maken", model: "AI-model", model_desc: "Kies het intelligentieniveau van je tutor"
   }
 };
